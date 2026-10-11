@@ -1,0 +1,25 @@
+@'
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Java build output
+target/
+**/target/
+
+# Local database files
+*.mv.db
+*.trace.db
+
+# Frontend dependencies and build output
+security-dashboard/node_modules/
+security-dashboard/dist/
+
+# IDE files
+.vscode/
+.idea/
+'@ | Add-Content .gitignore
